@@ -16,7 +16,7 @@ pip install dominate
 
 ### Testing
 - A few example test images are included in the `datasets` folder.
-- Please download the pre-trained model from [here](https://drive.google.com/open?id=1Idhor57IAYsO7W4RDJDKbQ8VcsoABQo4) (google drive link), and put it under `./checkpoints/IC_gll_v36/`
+- Please download the pre-trained model from [here](https://drive.google.com/open?id=1N_vjU2db2HWWsKiQXqWTujR5_XtOEUjQ) (google drive link), and put it under `./checkpoints/IC_gll_v36/`
 - Test the model :
 ```bash
 python test.py --dataroot datasets/ --name IC_gll_v36 --phase test
